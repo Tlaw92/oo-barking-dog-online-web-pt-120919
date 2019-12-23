@@ -4,12 +4,11 @@ class Dog
     @this_dogs_name = dogs_name
   end
  
-  def name
-    @this_dogs_name
-  end
-end
+ fido = Dog.new
+fido.name = "Fido"
  
-lassie = Dog.new
-lassie.name = "Lassie"
+fido.name
+# => "Fido"
  
-puts lassie.name
+fido.bark
+woof!
